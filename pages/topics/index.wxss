@@ -1,0 +1,99 @@
+.topics-main{
+    height: 100%;
+}
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    height: 36px;
+    z-index: 100;
+    overflow: hidden;
+    background: #444;
+}
+.top-bat-item{
+    display: inline-block;
+    width: 20%;
+    line-height: 36px;
+    color: #80bd01;
+    text-align: center;
+    font-size: 14px;
+}
+.posts-list{
+    margin-top: 36px;
+    height: 100%;
+}
+.posts-item{
+    position: relative;
+    padding: 10px;
+    font-size: 14px; 
+    background: #fff;
+    border-bottom: 1px solid #80bd01
+}
+.author{
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.author-avatar{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-radius: 3px;
+}
+.author-name{
+    float:left;
+    margin-left:5px;
+    color: #444;
+    line-height: 36px;
+}
+.posts-tag{
+    background: #fff;
+    border: 1px solid #80bd01;
+    color: #80bd01;
+    font-size: 12px;
+    float:left;
+    margin: 6px 0 8px 5px;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+.posts-top{
+    background: #fff;
+    border: 1px solid #80bd01;
+    color: #80bd01;
+    font-size: 12px;
+    float:left;
+    margin: 6px 0 8px 5px;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+.hot{
+    border: 1px solid #e25242;
+    color:#e25242;
+}
+.posts-last-reply{
+    float:right;
+    line-height: 36px;
+    color: #666;
+    font-size: 12px;
+}
+.bar-info{
+    overflow: hidden;
+    margin-top: 10px;
+}
+.bat-info-item{
+    float:right;
+    overflow: hidden;
+    margin-left: 5px;
+}
+.bar-info-item-icon{
+    margin-right: 3px;
+    width: 20px;
+    height: 20px;
+    float:left;
+}
+.bar-info-item-number{
+    float: left;
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+}

@@ -1,12 +1,32 @@
 {
   "pages":[
+    "pages/topics/index",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/detail/index"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "backgroundTextStyle":"#fff",
+    "backgroundColor":"#fff",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "微信应用号",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar":{
+    "color":"#272636",
+    "selectedColor":"#80bd01", 
+    "backgroundColor":"#fff",
+    "borderStyle":"white",
+    "list":[{
+      "pagePath":"pages/topics/index",
+      "text":"首页",
+      "iconPath":"images/tabBar/my.png",
+      "selectedIconPath":"images/tabBar/my_hl.png"
+    },{
+      "pagePath":"pages/index/index",
+      "text":"我的",
+      "iconPath":"images/tabBar/list.png",
+      "selectedIconPath":"images/tabBar/list_hl.png"
+    }]
   }
 }
